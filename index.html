@@ -15,7 +15,7 @@
         <div class="container">
             <div class="header-inner">
                 <div class="logo">
-                    <a class="logo-link" href="#">
+                    <a class="logo-link" href="#" id="logo-link">
                         <img src="./Image/icon/icon-svg/Group 2 1.svg" alt="logo">
                     </a>
                 </div>
@@ -117,7 +117,7 @@
             </div>
         </section>
         <section class="section-our-project">
-            <div class="container-our-project">
+            <div class="container-our-project" id="container-our-project">
                 <h3>Our Projects</h3>
                 <ul class="our-project-list">
                     <li class="our-project-item">
@@ -164,7 +164,7 @@
             </div>
         </section>
         <section class="section-our-team">
-            <div class="our-tean-container">
+            <div class="our-tean-container" id="our-tean-container">
                 <img src="./Image/example-project/video.png" alt="">
                 <div class="our-team-description-box">
                 <h3>Team</h3>
@@ -181,7 +181,7 @@
             </div>
         </section>
         <section class="section-Latest-News">
-            <div class="Latest-News-container">
+            <div class="Latest-News-container" id="Latest-News-container">
                 <h3>Latest News</h3>
                 <ul class="Latest-News-list" >
                     <li class="Latest-News-item">
@@ -244,37 +244,45 @@
             <h3>We'd love to hear all about your project.
                 Contact us.
             </h3>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
+            <ul class="footer-list-icon">
+                <li><a href=""><img src="./Image/icon/icon-svg/fb.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icon/icon-svg/google.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icon/icon-svg/tvit.png" alt=""></a></li>
+                <li><a href=""><img src="./Image/icon/icon-svg/pint.png" alt=""></a></li>
             </ul>
-            <ul>
+            <ul class="footer-fist-data">
                 <li>
                     <h4>CONTACTS</h4>
-                    <p>+80 555 55 66</p>
-                    <p>digi@gmail.com</p>
+                    <a href="tel:+380441111111" >+380441111111</a>
+                    <a href="digi@gmail.com">digi@gmail.com</a>
                 </li>
                 <li>
                     <h4>ADDRESS</h4>
-                    <p>Ave. Science 107</p>
-                    <p>Kiev / Ukraine</p>
+                    <a href="https://maps.app.goo.gl/tzEakQ9PkQ4himC19" target="_blank">Ave. Science 107</a>
+                    <a>Kiev / Ukraine</a>
                 </li>
                 <li>
                     <h4>HELP</h4>
-                    <p>How to contact us?</p>
-                    <p>What is digital?</p>
-                    <p>Cost of services</p>
+                    <a>How to contact us?</a>
+                    <a>What is digital?</a>
+                    <a>Cost of services</a>
                 </li>
                 <li>
                     <h4>MENU</h4>
-                    <p>Our projects</p>
-                    <p>Команда</p>
-                    <p>Blog</p>
+                    <a href="#container-our-project">Our projects</a>
+                    <a href="#our-tean-container">Team</a>
+                    <a href="#Latest-News-container">Blog</a>
                 </li>
             </ul>
         </div>
     </footer>
+    <section class="section-up">
+        <a class="up-container" href="#logo-link">
+            <p>
+                <img src="./Image/icon/icon-svg/previous message.svg" alt="">
+                UP
+            </p>
+        </a>
+    </section>
 </body>
 </html>
