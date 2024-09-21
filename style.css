@@ -5,6 +5,7 @@ h1, h2, h3, h4{
     padding: 0;
 }
 html{
+    user-select: none;
     scroll-behavior: smooth;
 }
 li{
@@ -48,6 +49,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: 500ms ease-in-out;
 }
 .menu-btn:hover{
     background: #000;
@@ -171,6 +173,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 500ms ease-in-out;
 }
 .cart-item:hover{
     border: 1px solid  #2B4074;
@@ -236,6 +239,7 @@ ul{
     align-items: center;
     min-width: 270px;
     cursor: pointer;
+    
 }
 .img-box>img{
     border-radius: 3px;
@@ -376,6 +380,7 @@ ul{
     border-radius: 3px;
     overflow: hidden;
     cursor: pointer;
+    transition: 500ms ease-in-out;
 }
 .Latest-News-item:nth-child(3){
     border: 10px solid #2B4074;
@@ -397,6 +402,7 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     fill: #fff;
+    
 }
 .Latest-News-item:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
